@@ -19,7 +19,20 @@ code {
   display: flex;
   flex-direction: column;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #7dbcea;
+  align-items: center;
+  padding: 0 40px;
+}
 .header_title {
   font-size: 20px;
+  color: #fff;
+}
+
+.login_user {
+  font-size: 14px;
   color: #fff;
 }
